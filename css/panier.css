@@ -1,0 +1,71 @@
+.panier {
+    font-family: Agency FB;
+    width: 300px;
+    position: absolute;
+    background-color: black;
+    left: -100%;
+    z-index: 99999;
+}
+.active{
+    left: 0px;
+}
+.panier-icon{
+    font-size: 60px;
+    color: green;
+    cursor: pointer;
+}
+.entete-panier{
+    display: grid;
+    grid-template-columns: 90% 10%;
+}
+.titre{
+    text-align: center;
+    font-size: 4rem;
+    font-weight: bold;
+    color: white;
+    text-decoration: underline;
+}
+.produit{
+    display: grid;
+    grid-template-columns: 50% 40% 10%;
+    border: 4px solid white;
+    border-radius: 15px;
+    margin-top: 5px;
+}
+.img-produit{
+    width: 150px;
+    height: 150px;
+}
+.nom-produit,
+.prix-produit{
+    color: white;
+    font-size: 25px;
+}
+.qte-produit{
+    width: 80px;
+    background-color: transparent;
+    color: white;
+}
+.btn-supprimer{
+    color: red;
+    font-size: 25px;
+    margin-top: 70px;
+    cursor: pointer;
+}
+.prix-total{
+    margin-top: 20px;
+    border-top: 4px solid white;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    font-size: 30px;
+    color: white;
+}
+.total-titre{
+    text-align: center;
+}
+.btn-fermer{
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+}
